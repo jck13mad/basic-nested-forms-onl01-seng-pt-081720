@@ -4,6 +4,7 @@
   
   <%= f.fields_for :addresses do |a| %>
     <%= a.label :street_address_1 %>
+    <%= a.text_field :street_address_1 %>
   <% end %>
  <%= f.submit %>
 <% end %>
