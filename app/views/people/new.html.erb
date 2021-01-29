@@ -4,7 +4,12 @@
   
   <%= f.fields_for :addresses do |a| %>
     <%= a.label :street_address_1 %>
-    <%= a.text_field :street_address_1 %>
+    <%= a.text_field :street_address_1 %><br />
+    
+    <%= a.label :street_address_2 %>
+    <%= a.text_field :street_address_2 %><br />
+    
+    <%= a.label :
   <% end %>
  <%= f.submit %>
 <% end %>
