@@ -2,6 +2,8 @@
   <%= f.label :name %> <br />
   <%= f.text_field :name %> <br />
   
-  
+  <%= f.fields_for :addresses do |a| %>
+    
+  <% end %>
  <%= f.submit %>
 <% end %>
