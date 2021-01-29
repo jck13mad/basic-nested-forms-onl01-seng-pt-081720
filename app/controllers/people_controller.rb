@@ -1,7 +1,7 @@
 class PeopleController < ApplicationController
   def new
     @person = Person.new
-    @person.addresses
+    @person.addresses.build 
   end
 
   def create    
