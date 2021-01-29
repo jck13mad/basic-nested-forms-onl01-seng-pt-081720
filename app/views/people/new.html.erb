@@ -3,7 +3,7 @@
   <%= f.text_field :name %> <br />
   
   <%= f.fields_for :addresses do |a| %>
-    <%= a.label :s
+    <%= a.label :street_address_1 %>
   <% end %>
  <%= f.submit %>
 <% end %>
